@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#d8d6d5">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -185,6 +186,15 @@
             android:text="Wedang Jahe" />
 
         <TextView
+            android:id="@+id/textViewHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonOK"
+            tools:text="New Text" />
+
+        <TextView
             android:id="@+id/textViewDuduk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -203,23 +213,14 @@
             android:entries="@array/nomer" />
 
         <Button
-        android:id="@+id/buttonOK"
+            android:id="@+id/buttonOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/spinnerDuduk"
-        android:layout_marginTop="40dp"
-        android:text="Beli" />
-
-    <TextView
-        android:id="@+id/textViewHasil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonOK"
-        tools:text="New Text" />
+            android:layout_alignTop="@+id/spinnerDuduk"
+            android:layout_marginTop="40dp"
+            android:text="Beli" />
 
     </LinearLayout>
 </ScrollView>
