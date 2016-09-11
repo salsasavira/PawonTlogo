@@ -186,15 +186,6 @@
             android:text="Wedang Jahe" />
 
         <TextView
-            android:id="@+id/textViewHasil"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-            android:layout_below="@+id/buttonOK"
-            tools:text="New Text" />
-
-        <TextView
             android:id="@+id/textViewDuduk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -221,6 +212,15 @@
             android:layout_alignTop="@+id/spinnerDuduk"
             android:layout_marginTop="40dp"
             android:text="Beli" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/buttonOK"
+            tools:text="New Text" />
 
     </LinearLayout>
 
